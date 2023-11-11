@@ -30,7 +30,7 @@
 
     <nav class="black z-depth-0">
         <div class= container >
-            <a href='index.php' class= "brand-logo brand-text">Ninja Pizza</a>
+            <a href='profile.php' class= "brand-logo brand-text">EARTH</a>
             <ul id=" nav-mobile" class="right hide-on-small-and-down">
                     
                 <li><a href="includes/logout.php" class="btn brand z-depth-0"> LOGOUT</a></li>
