@@ -42,6 +42,7 @@
             <ul id=" nav-mobile" class="right hide-on-small-and-down">
                     
                   <li class="grey-text">WELCOME,  <?php echo $name;?></li>
+                  <li><a href="includes/logout.php" class="btn brand z-depth-0">CHAT</a></li>
                 <li><a href="includes/logout.php" class="btn brand z-depth-0"> LOGOUT</a></li>
                
               

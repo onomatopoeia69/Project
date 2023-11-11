@@ -1,5 +1,5 @@
 
 
 <footer class="section">
-    <div class="center grey-text"> Copyright <?php echo date('Y')?> EARTH </div>
+    <div class="center black-text"> Copyright <?php echo date('Y')?> EARTH </div>
 </footer>
