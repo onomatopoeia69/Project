@@ -21,7 +21,7 @@ if(!isset($_SESSION['id'])){
 <?php require_once 'includes/Header.php'; ?> 
 
 
-     <h5>WELCOME <?php echo $_SESSION['username']; ?> </h5>
+     
 
 
 

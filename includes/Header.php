@@ -1,3 +1,11 @@
+<?php 
+
+
+    $name=strtoupper($_SESSION['username']);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,14 +34,17 @@
         </style>
 
 </head>
-<body class= "grey lighten-4">
+<body class= "red lighten-4">
 
     <nav class="black z-depth-0">
         <div class= container >
             <a href='profile.php' class= "brand-logo brand-text">EARTH</a>
             <ul id=" nav-mobile" class="right hide-on-small-and-down">
                     
+                  <li class="grey-text">WELCOME,  <?php echo $name;?></li>
                 <li><a href="includes/logout.php" class="btn brand z-depth-0"> LOGOUT</a></li>
+               
+              
                 
             </ul>
         </div>
