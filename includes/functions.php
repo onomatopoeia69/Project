@@ -90,17 +90,17 @@
 
         if($int >= 0 && $int < 12){
    
-   
+            echo "<i class='bi bi-cloud-sun-fill' style='font-size: 17px'>  Good Afternoon, $name</i> "; 
           
-          echo "<i class= 'bi bi-sun-fill' style='font-size: 17px'>  Good Morning, $name</i> "; 
+           
           
    
        }
        elseif($int > 12 && $int < 17 )
        {
    
+        echo "<i class= 'bi bi-sun-fill' style='font-size: 17px'>  Good Morning, $name</i> ";
            
-           echo "<i class='bi bi-cloud-sun-fill' style='font-size: 17px'>  Good Afternoon, $name</i> "; 
    
        }else{
            echo "<i class= 'bi bi-moon-stars-fill' style='font-size: 17px'>  Good Evening, $name</i> "; 
