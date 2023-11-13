@@ -100,7 +100,7 @@
            echo "Good Afternoon";
    
        }else{
-           echo "GoodNight";
+           echo "Good Evening";
        }
    
 
