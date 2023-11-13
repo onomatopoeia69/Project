@@ -82,7 +82,7 @@
     }
 
 
-    function timeGreet(){
+    function timeGreet($name){
 
 
         $int=date("H:i:s");
@@ -91,16 +91,19 @@
         if($int >= 0 && $int < 12){
    
    
-          echo "GoodMorning";
+          
+          echo "<i class= 'bi bi-sun-fill' style='font-size: 17px'>  Good Morning, $name</i> "; 
+          
    
        }
        elseif($int > 12 && $int < 17 )
        {
    
-           echo "Good Afternoon";
+           
+           echo "<i class='bi bi-cloud-sun-fill' style='font-size: 17px'>  Good Afternoon, $name</i> "; 
    
        }else{
-           echo "Good Evening";
+           echo "<i class= 'bi bi-moon-stars-fill' style='font-size: 17px'>  Good Evening, $name</i> "; 
        }
    
 
