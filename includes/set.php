@@ -2,30 +2,25 @@
 <?php include("functions.php"); ?>
 <?php
 
+   
+   
 
-        $try= "carl";
-       
+    $int=date("H:i:s");
 
 
-        $sql = "SELECT password from users WHERE id=19";
-        $stmt = mysqli_query($conn,$sql);
-        $result= mysqli_fetch_assoc($stmt);
-        $hash =$result['password'];
-        
-        if (password_verify($try,$hash)){
+     if($int >= 0 && $int < 12){
 
-            echo "yes";
 
-        }else{
+       echo "GoodMorning";
 
-            echo "no";
-        }
+    }
+    elseif($int > 12 && $int < 17 )
+    {
 
-        
+        echo "Good Afternoon";
 
-            $username ="boy";
-      
-        UsernameIdentify($conn, $username);
-
+    }else{
+        echo "GoodNight";
+    }
 
 ?>

@@ -1,3 +1,5 @@
+
+<?php require_once 'includes/functions.php'; ?>
 <?php 
 
 
@@ -41,8 +43,8 @@
             <a href='profile.php' class= "brand-logo brand-text">EARTH</a>
             <ul id=" nav-mobile" class="right hide-on-small-and-down">
                     
-                  <li class="grey-text">WELCOME,  <?php echo $name;?></li>
-                  <li><a href="includes/logout.php" class="btn brand z-depth-0">CHAT</a></li>
+                  <li class="grey-text"> <?php  timeGreet();?>, <?php echo $name;?></li>
+                  <li><a href="includes/logout.php" class="btn brand z-depth-0">SHOP</a></li>
                 <li><a href="includes/logout.php" class="btn brand z-depth-0"> LOGOUT</a></li>
                
               
