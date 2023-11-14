@@ -40,8 +40,6 @@
 
             } 
 
-          
-
 
 
            $a = UsernameIdentify($conn, $username);

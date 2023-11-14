@@ -5,13 +5,20 @@
 
 
 
-    $time =date("H");
+    // $time =date("H");
 
-    echo $time;
+    // echo $time;
 
-    if ($time == 21 ){
+    // if ($time == 21 ){
 
 
-        echo "true";
+    //     echo "true";
 
-    }
+    // }
+
+    $quantity = 3;
+    $customer = 1;
+
+    echo  --$quantity ;
+
+

@@ -1,11 +1,7 @@
 
 <?php require_once 'includes/functions.php'; ?>
 <?php 
-
-
     $name=strtoupper($_SESSION['username']);
-
-
 ?>
 
 <!DOCTYPE html>
