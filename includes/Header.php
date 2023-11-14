@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
     <style type="text/css">
         .brand{
             background: yellowgreen !important;
@@ -37,10 +38,10 @@
         </style>
 
 </head>
-<body class= "red lighten-4">
+<body class= "#bdbdbd grey lighten-1" >
 
     <nav class="black z-depth-0">
-        <div class= container >
+        <div class= "container" >
             <a href='profile.php' class= "brand-logo brand-text">EARTH</a>
             <ul id=" nav-mobile" class="right hide-on-small-and-down">
                     
@@ -61,5 +62,3 @@
 
 
     
-</body>
-</html>

@@ -43,8 +43,8 @@ if(!isset($_SESSION['id'])){
 
                     <div class="alb" id="profilePicture">
                    
-                    <?php  echo ($rows['img_url']) ?  "<img src='Upload/{$rows['img_url']}'> " : '<p> No Profile </p>' ; ?>
-                     
+                    <?php  echo ($rows['img_url']) ?  "<img src='Upload/{$rows['img_url']}' class='img-rounded' alt= alt='Cinque Terre'> " : '<p> No Profile </p>' ; ?>
+                    
                     
                      </div>
                        
@@ -59,7 +59,7 @@ if(!isset($_SESSION['id'])){
 
 
 
-    <a href='view_pic.php?pic=<?=  $_SESSION['img']; ?>'>SEE PROFILE</a><br>
+    <a href='view_pic.php?pic=<?= $_SESSION['img']; ?>'>SEE PROFILE</a><br>
     <a href="uploadImg.php">UPLOAD PROFILE</a>      
 
 

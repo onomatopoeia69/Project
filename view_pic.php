@@ -15,12 +15,8 @@
 
     if(isset($_GET['pic'])){
 
-     
-
         $image = $_GET['pic'];
 
-
-        
     }
 
 
